@@ -1,296 +1,466 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>movie design</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <title>facebook app</title>
+    <link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <div class="navbar">
         <div class="navbar-container">
-            <div class="logo-container"><h1 class="logo">whitney</h1></div>
+            <div class="logo-container"><h1>facebook</h1></div>
             <div class="menu-container">
                 <ul class="menu-list">
-                    <li class="menu-list-item active">home</li>
-                    <li class="menu-list-item">movie</li>
-                    <li class="menu-list-item">series</li>
-                    <li class="menu-list-item">popular</li>
-                    <li class="menu-list-item">trends</li>
+                    <li class="menu-list-item"><i class="fa-solid fa-plus"></i></li>
+                    <li class="menu-list-item"><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li class="menu-list-item"><i class="fa-solid fa-bars"></i></li>
                 </ul>
             </div>
-            <div class="profile-container">
-                <img class="profile-picture" src="./images/profile picture.jpg" alt="">
-                <div class="profile-text-container">
-                    <span class="profile-text">profile</span>
-                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                
-                </div>
-                <div class="toggle">
-                    <i class="fa-solid fa-moon toggle-icon"></i> 
-                    <i class="fa-solid fa-sun toggle-icon"></i>
-                    <div class="toggle-ball"></div>
+        </div>
+    </div>
+    <div class="under-navbar">
+        <i class="sh-active fa-solid fa-house-user"></i>
+        <i class="sh-bold fa-solid fa-user-group"></i>
+        <i class="sh-great fa-regular fa-comment-dots"></i>
+        <i class="sh-nice fa-solid fa-bell"></i>
+        <i class="sh-good fa-solid fa-tv"></i>
+        <i class="sh-talent fa-solid fa-house"></i>
+        </div>
+    </div>
+    <div class="profile-container">
+        <img class="profile-picture" src="images/profile picture.jpg">
+        <div class="profile-text-container">
+            <P class="profile-text">what's on your mind? </P>
+            <i class="sh-kind fa-solid fa-image"></i>
+        </div>
+    </div>
 
+   <div class="facebook-list-container">
+    <div class="facebook-list-wrapper">
+       <div class="facebook-list">
+          <div class="facebook-list-item">
+            <button class="facebook-list-item-plus">+</button>
+            <p class="facebook-list-item-cont">6 recent photos</p>
+            <img class="facebook-list-item-image" src="./images/profile picture.jpg" alt="">
+            
+        </div>
 
-                </div>
-            </div>
+        <div class="facebook-list-item">
+            <button class="facebook-list-item-decs">6</button>
+            <p class="facebook-list-item-con">oluwa feyikemi</p>
+            <img class="facebook-list-item-image" src="./images/whi-1.jpg">
+        </div>
+
+        <div class="facebook-list-item">
+            <button class="facebook-list-item-decs">8</button>
+            <p class="facebook-list-item-con">oluwa tunmise</p>
+            <img class="facebook-list-item-image" src="./images/whi-2.jpg">
+        </div>
+
+        <div class="facebook-list-item">
+            <button class="facebook-list-item-decs">4</button>
+            <p class="facebook-list-item-con">mosunmola oluwa</p>
+            <img class="facebook-list-item-image" src="./images/whi-3.png">
+        </div>
+
+        <div class="facebook-list-item">
+            <button class="facebook-list-item-decs">3</button>
+            <p class="facebook-list-item-con">oluwa seun</p>
+            <img class="facebook-list-item-image" src="./images/whi-4.jpg">
+        </div>
+
+        <div class="facebook-list-item">
+            <button class="facebook-list-item-decs">1</button>
+            <p class="facebook-list-item-con">whitney</p>
+            <img class="facebook-list-item-image" src="./images/whi-5.jpg">
+        </div>
+
+        <div class="facebook-list-item">
+            <button class="facebook-list-item-decs">5</button>
+            <p class="facebook-list-item-con">ayomidotun</p>
+            <img class="facebook-list-item-image" src="./images/WHI-6.jpg" alt="">
         </div>
         
-    </div>
-    <div class="sidebar">
-        <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
-        <i class="left-menu-icon fa-solid fa-house"></i>
-        <i class="left-menu-icon fa-sharp fa-solid fa-cart-shopping"></i>
-        <i class="left-menu-icon fa-solid fa-users"></i>
-        <i class="left-menu-icon fa-solid fa-tv"></i>
-        <i class="left-menu-icon fa-solid fa-hourglass-start"></i> 
-        <i class="left-menu-icon fa-sharp fa-solid fa-bookmark"></i>
-    </div>
-    <div class="container">
-        <div class="content-container">
-            <div class="feature-container"
-            style="background:  url(images/whitney\ logo\ 5.png);"
-            >
-            <img  class="feature-image" src="images/alchemy of souls.jpg" alt="">
-            <span class="feature-tittle">alchemy of soul</span>
-            <p class="feature-desc">the fate of two people becomes twisted due to "hwanhonsool"(the soul of the dead return to the living "a beautiful movie to watch"</p>
-            <button class="feature-botton">watch</button>
+        <div class="facebook-list-item" >
+            <button class="facebook-list-item-decs">7</button>
+            <p class="facebook-list-item-con">victoria</p>
+            <img class="facebook-list-item-image" src="./images/whi-7.jpg" alt="">
         </div>
-             
-           <div class="movie-list-container">
-            <h1 class="movie-list-title">NEW RELEASE</h1>
-            <div class="movie-list-wrapper">
-                <div class="movie-list">
-                    <div class="movie-list-item">
-                        <img class="movie-list-item-image" src="images/mr williams.jpg">
-                        <span class="movie-list-item-title">mr williams!</span>
-                        <P class="movie-list-item-desc">madison evans loved hunter williams for 16 years, but was asked to be his mobile blood bank for white moonlight, andrea david. hunter williams destroyed her family, just to make room for andrea david.</P>
-                        <button class="movie-list-item-botton">watch</button>
-                    </div>
-                    <div class="movie-list-item">
-                        <img class="movie-list-item-image" src="images/beekeeper.jpg">
-                        <span class="movie-list-item-title">the beekeeper</span>
-                        <P class="movie-list-item-desc">one man brutal campaign for vegeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as "beekeeper"</P>
-                        <button class="movie-list-item-botton">watch</button>
-                    </div>
-                    <div class="movie-list-item">
-                        <img class="movie-list-item-image" src="images/marry A.jpg">
-                        <span class="movie-list-item-title">marry a stranger</span>
-                        <p class="movie-list-item-desc">A coincidence marriage gave each other true love, a senerio that gave two different people true love.</p>
-                        <button class="movie-list-item-botton">watch</button>
-                    </div>
-                    <div class="movie-list-item">
-                        <img class="movie-list-item-image" src="images/blacklight.jpg">
-                        <span class="movie-list-item-title">blacklight</span>
-                        <P class="movie-list-item-desc">travis block is a government opertive coming to terms with his shadowy past. when he discovers a plot targeting u.s. citizen, block finds himself in the crosshair of the FBI director he once helped protect.</P>
-                        <button class="movie-list-item-botton">watch</button>
-                    </div>
-                    <div class="movie-list-item">
-                        <img class="movie-list-item-image" src="images/cute programmer.jpg">
-                        <span class="movie-list-item-title">cute programmer</span>
-                        <button class="movie-list-item-botton">watch</button>
-                        <P class="movie-list-item-desc">after falling in love with a genius programmer jiang yicheng, lu li enroll into the school he once studied at, and also took up the same major-computer science. she slowly starts to follow his path despite all the hurdles.</P>
-                    </div>
 
-                    <div class="movie-list-item">
-                        <img class="movie-list-item-image" src="images/mami water.jpg">
-                        <span class="movie-list-item-title">mami water</span>
-                        <button class="movie-list-item-botton">watch</button>
-                        <p class="movie-list-item-desc">When harmony in a village is threatened byoutside elements, two sisters must fight to save their people and restore the glory of a mermiad goodess to the land.</p>
-                    </div>
 
-                        <div class="movie-list-item">
-                        <img class="movie-list-item-image" src="images/meteor garden.jpg">
-                        <span class="movie-list-item-title">meteor garden</span>
-                        <button class="movie-list-item-botton">watch</button>
-                        <p class="movie-list-item-desc">An ordinary girl admitted to the most prestigious school in the country where she encounters F4, an exclusive group comprised of the four wealthiest and handsome boys in the school-Doa Ming si, Hua Ze Lei,Xi Men Zuo.</p>
-                        </div>
-                </div>
-                <i class="arrow fa-solid fa-angle-right"></i>
+       </div>
+    </div>
+   </div>  
+   <div>
+    <div class="post-container">
+        <div class="post-row-a">
+          <div class="user-profile">
+            <img class="user-profile-img" src="./images/whi-1.jpg">
+            <div>
+                <p class="user-profile-p">oluwa feyikemi</p>
+                <span class="user-profile-s">may 27 2024 3:34 pm</span>
             </div>
-      </div>
-      <div class="movie-list-container">
-        <h1 class="movie-list-title">TRENDING</h1>
-        <div class="movie-list-wrapper">
-            <div class="movie-list">
-                <div class="movie-list-item">
-                    <img class="movie-list-item-image" src="images/adored.jpg">
-                    <span class="movie-list-item-title">Adored by the ceo</span>
-                    <p class="movie-list-item-desc">adrian reeves was in desprate need of money due to family pressure of a high-paying job, she disguise herself as a man and becomr the special assistant to the CEO of a fortune 500 company</p>
-                    <button class="movie-list-item-botton">watch</button>
-                </div>
+          </div>
+          <a href="#"><i class="AH fa-solid fa-ellipsis"></i>
+            <i class="AH-2 fa-sharp fa-solid fa-xmark"></i>
+        </a>
+       </div> 
+        <P CLASS="post-text">THIS IS WHAT YOU ARE GOING THROUGH, NOT WHO U ARE. "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE". YOU ARE DOING AWESOME! THIS IS TOUGH, BUH YOU'RE TOUGHER. DON'T STRESS. YOU GOT THIS! GOOD LUCK TODAY! I KNOW YOU ARE GOING TO DO GREAT. YOU'RE MAKING A BIG CHANGE, AND I'M PROUD OF U!  HAPPY CHILDREN'S DAY!!!!</P>
+        <img class="post-img" src="./images/whi-9.jpg">
 
-                <div class="movie-list-item">
-                    <img class="movie-list-item-image" src="images/celebrity.jpg">
-                    <span class="movie-list-item-title">Celebrity</span>
-                    <p class="movie-list-item-desc">Fame. Money. powwe. one young woman fights to become the next hoottest celebrity in the glamorous yet scandalous world influencer in Seoul. </p>
-                    <button class="movie-list-item-botton">watch</button>
-                </div>
+        <div class="POST-ROW">
+            <div class="activity-icons">
+                <div class="gh"><i class="GT fa-solid fa-thumbs-up"></i>   500</div>
+                <div class="gj"><i class="GT fa-solid fa-comment"></i>  348</div>
+                <div class="gi"><i class="GT fa-solid fa-share"></i>   150</div>
+            </div>
+        </div>
+    </div>
+    <div class="post-container-2">
+        <DIV class="post-row-a-2">
+         <div class="user-profile-2">
+            <img class="user-profile-img-2" src="./images/whi-2.jpg">
+            <div>
+                <p class="user-profile-p-2">oluwa tunmise is feeling happy </p>
+                <span class="user-profile-s-2">may 28 2024 12:13pm</span>
+            </div>
+         </div>
+         <a href="#">
+          <i class="AH fa-solid fa-ellipsis"></i>
+            <i class="AH-2 fa-sharp fa-solid fa-xmark"></i> 
+         </a>
+        </DIV>
+        <p class="post-text-2">what a bliss day</p>
+        <img class="post-img-2" src="./images/whi-8.jpg">
 
-                <div class="movie-list-item">
-                    <img class="movie-list-item-image" src="images/falling into your smile.jpg">
-                    <span class="movie-list-item-title">Falling into your smile</span>
-                    <p class="movie-list-item-desc">Romance between two professional gamers.</p>
-                    <button class="movie-list-item-botton">watch</button>
-                </div>
+        <div class="POST-ROW">
+            <div>
+                <div class="gj"><i class="GT fa-solid fa-comment"></i>  148</div>
+                <div class="gi"><i class="GT fa-solid fa-share"></i>   70</div>
+                <div class="gh"><i class="GT fa-solid fa-thumbs-up"></i>   400</div>
+            </div>
+        </div> 
+    </div>
 
-                <div class="movie-list-item">
-                    <img class="movie-list-item-image" src="images/fate the winx saga.jpg">
-                    <span class="movie-list-item-title">fate the winx saga</span>
-                    <p class="movie-list-item-desc"> A life-action adaptation of nickelodeon's winx club (2004). it follows bloom as she adjust to life in the othereorld where she must learn to control her dangerous magical powers.</p>
-                    <button class="movie-list-item-botton">watch</button>
-                </div>
-
-                <div class="movie-list-item">
-                    <img class="movie-list-item-image" src="images/fedela.jpg">
-                    <span class="movie-list-item-title">fidelity</span>
-                    <P class="movie-list-item-desc">Aseemingly happy marriage begin to dissolve when the husband's faithfulness is called into question, and both spouses become tempted by other desires.</P>
-                    <button class="movie-list-item-botton">wactch</button>
-                </div>
-
-                <div class="movie-list-item">
-                    <img class="movie-list-item-image" src="images/Big bad.jpg">
-                    <span class="movie-list-item-title">Big Bad Husband</span>
-                    <p class="movie-list-item-desc">You are forced to marry bigshot billionaire Adrian lewis as the replacement bride in order to save your grandpa's life. for  the hefty price of five million dollars, you sold yourself into the lewis family with the promise an heir. there's just one catch... Adrian lewis is in a coma.</p>
-                    <button class="movie-list-item-botton">watch</button>
-                </div>
-
-                <div class="movie-list-item">
-                    <img class="movie-list-item-image" src="images/attribution.jpg">
-                    <span class="movie-list-item-title">Attribution</span>
-                    <p class="movie-list-item-desc">ATTRIBUTION....NOLLYWOOD CINEMA</p>
-                    <button class="movie-list-item-botton">watch</button>
+    <div class="post-container-3">
+        <div class="post-row-a-3">
+            <div class="user-profile-3">
+                <img class="user-profile-img-3" src="./images/whi-3.png">
+                <div>
+                    <p class="user-profile-p-3">mosumola oluwa is celebrating her birthday with</p>
+                    <span class="user-profile-s-3">june 7 2024 12:00 AM</span>
                 </div>
             </div>
-           <i class="arrow fa-solid fa-angle-right"></i>
+          <a href="#">
+            <i class="AH fa-solid fa-ellipsis"></i>
+            <i class="AH-2 fa-sharp fa-solid fa-xmark"></i> 
+            </a>
         </div>
-      </div>
-      
-        <div class="feature-container" style="background: url(images/logo\ whitney\ 2.jpg);"
-        >
-        <img class="feature-image-2" src="images/TRUE LUNA.jpg">
-        <p class="feature-desc-2">When Emma parker turns eighteen, she discovers her fated mate is Logal Carter the Alpha of her pack. but that happiness it short-lived well Logal rejects her for another she-wolf. soon after, Emma learns that she is no ordinary wolf, and that many dangerous people are after her. Alpha Logal rejected Emma, so why his he willing to keep Emma safe.? </p>
-        <button class="feature-botton-2">watch</button>
+        <P class="post-text-3">GOD DID I'M PLUS ONE</P>
+        <Img class="post-img-3" src="./images/profile picture.jpg">
+             <div>
+                <div class="gi"><i class="GT fa-solid fa-share"></i>   90</div>
+                <div class="gh"><i class="GT fa-solid fa-thumbs-up"></i>  1.5K</div>
+                <div class="gj"><i class="GT fa-solid fa-comment"></i>  348</div>
+            </div>
+    </div>
+
+    <DIV class="facebook-list-container-2">
+        <h1 class="facebook-list-title-2">PEOPLE YOU MAY KNOW</h1>
+        <div class="facebook-list-wrapper-2">
+            <div class="facebook-list-2">
+                <div class="facebook-list-item-2">
+                    <img class="facebook-list-item-image-2" src="./images/whi-16.jpg" alt="">
+                    <span class="game">abolaji victor</span>
+                    <p class="done"><img class="fame" src="./images/whi-1.jpg">  11 mutual friends</p>
+                    <button class="come"><i class="fa-solid fa-user-plus"></i> Add friends</button>
+        
+                </div>
+
+                <div class="facebook-list-item-2">
+                    <img class="facebook-list-item-image-2" src="./images/whi-12.JPG">
+                    <span class="game">okenuga margaret</span>
+                    <p class="done"><img class="fame" src="./images/whi-7.jpg">  15 mutual friends</p>
+                    <button class="come"><i class="fa-solid fa-user-plus"></i> Add friends</button>
+                </div>
+
+               <div class="facebook-list-item-2">
+                    <img class="facebook-list-item-image-2" src="./images/whi-13.JPG">
+                    <span class="game">oluwa teniola</span>
+                    <p class="done"><img class="fame" src="./images/whi-2.jpg">  18 mutual friends</p>
+                    <button class="come"><i class="fa-solid fa-user-plus"></i> Add friends</button>
+                </div>
+
+               <div class="facebook-list-item-2">
+                <img class="facebook-list-item-image-2" src="./images/whi-14.JPG">
+                    <span class="game">oluwa teniola</span>
+                    <p class="done"><img class="fame" src="./images/WHI-6.jpg">  11 mutual friends</p>
+                    <button class="come"><i class="fa-solid fa-user-plus"></i> Add friends</button>
+                </div>
+
+               <div class="facebook-list-item-2">
+                <img class="facebook-list-item-image-2" src="./images/whi-15.jpg">
+                    <span class="game">oluwa teniola</span>
+                    <p class="done"><img class="fame" src="./images/whi-5.jpg">  11 mutual friends</p>
+                    <button class="come"><i class="fa-solid fa-user-plus"></i> Add friends</button>
+                </div>
+
+               <div class="facebook-list-item-2">
+                <img class="facebook-list-item-image-2" src="./images/whi-17.jpg" alt="">
+                <span class="game">oluwa teniola</span>
+                <p class="done"><img class="fame" src="./images/whi-4.jpg">  11 mutual friends</p>
+                <button class="come"><i class="fa-solid fa-user-plus"></i> Add friends</button>
+            </div>
+
+               <div class="facebook-list-item-2">
+                <img class="facebook-list-item-image-2" src="./images/whi-11.jpg">
+                <span class="game">oluwa teniola</span>
+                <p class="done"><img class="fame" src="./images/whi-3.png">  11 mutual friends</p>
+                <button class="come"><i class="fa-solid fa-user-plus"></i> Add friends</button>
+               </div>
+            </div>
         </div>
+    </DIV>
+
+    <div class="post-container-4">
+        <div class="post-row-a-4">
+            <div class="user-profile-4">
+                <img class="user-profile-img-4" src="./images/whi-4.jpg">
+                <div>
+                    <p class="user-profile-p-4">oluwa seun</p>
+                    <span class="user-profile-s-4">may 28 2024 4:56pm</span>
+                </div>
+                <a href="#">
+                  <i class="AH-2 fa-sharp fa-solid fa-xmark"></i> 
+                  <i class="AH fa-solid fa-ellipsis"></i>   
+                </a>
+            </div>
+        </div>
+        <p class="post-text-4">you all have a great day</p>
+        <img class="post-img-4" src="./images/whi-4.jpg">
+        <div class="POST-ROW">
+            <div>
+                <div class="gh"><i class="GT fa-solid fa-thumbs-up"></i>  575</div>
+                <div class="gj"><i class="GT fa-solid fa-comment"></i>  48</div>
+                <div class="gi"><i class="GT fa-solid fa-share"></i>   90</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-container-5">
+        <div class="post-row-a-5">
+            <div class="user-profile-5">
+                <img class="user-profile-img-5" src="./images/whi-5.jpg">
+                <div>
+                    <p class="user-profile-p-5">whitney</p>
+                    <span class="user-profile-s-5">may 30 2024 7:56pm</span>
+                </div> 
+            <a href="#">
+                <i class="AH-2 fa-sharp fa-solid fa-xmark"></i> 
+                <i class="AH fa-solid fa-ellipsis"></i>   
+                </a>
+            </div>
+        </div>
+        <p class="post-text-5">the lips thou!!1</p>
+        <img class="post-img-5" src="./images/whi-18.jpg">
+        <div class="POST-ROW">
+            <div>
+                <div class="gj"><i class="GT fa-solid fa-comment"></i>  948</div>
+                <div class="gh"><i class="GT fa-solid fa-thumbs-up"></i>  3.5K</div>
+                <div class="gi"><i class="GT fa-solid fa-share"></i>   170</div>
+
+            </div>
+        </div>
+    </div>
+
+    <DIV class="facebook-list-container-3">
+        <h1 class="facebook-list-title-3">Friends request</h1>
+        <div class="facebook-list-wrapper-3">
+            <div class="facebook-list-3">
+                <div class="facebook-list-item-3">
+                    <img class="facebook-list-item-image-3" src="./images/whi-10.png" alt="">
+                    <span class="game">chino himself</span>
+                    <p class="done"><img class="fame" src="./images/whi-1.jpg"> 18 mutual friends</p>
+                    <h3 class="come-2-1">Confirm</h3>
+                    <h4 class="two">delete</h4>
+            
+                </div>
+
+                <div class="facebook-list-item-3">
+                    <img class="facebook-list-item-image-3" src="./images/whi-21.png" alt="">
+                    <span class="game">folorunsho</span>
+                    <p class="done"><img class="fame" src="./images/whi-2.jpg"> 19 mutual friends</p>
+                    <h3 class="come-2-1">Confirm</h3>
+                    <h4 class="two">delete</h4>
+                </div>
+            
+                <div class="facebook-list-item-3">
+                    <img class="facebook-list-item-image-3" src="./images/whi-22.png" alt="">
+                    <span class="game">gbemisola ayola</span>
+                    <p class="done"><img class="fame" src="./images/whi-4.jpg"> 38 mutual friends</p>
+                    <h4 class="two">delete</h4>
+                    <h3 class="come-2-1">Confirm</h3>
+                </div>
+
+                <div class="facebook-list-item-3">
+                    <img class="facebook-list-item-image-3" src="./images/whi-23.png" alt="">
+                    <span class="game">tofunmi</span>
+                    <p class="done"><img class="fame" src="./images/whi-3.png"> 28 mutual friends</p>
+                    <h3 class="come-2-1">Confirm</h3>
+                    <h4 class="two">delete</h4>
+                </div>
+
+                <div class="facebook-list-item-3">
+                    <img class="facebook-list-item-image-3" src="./images/whi-24.png" alt="">
+                    <span class="game">feyikumi</span>
+                    <p class="done"><img class="fame" src="./images/whi-4.jpg"> 16 mutual friends</p>
+                    <h3 class="come-2-1">Confirm</h3>
+                    <h4 class="two">delete</h4>
+                </div>
+
+                <div class="facebook-list-item-3">
+                    <img class="facebook-list-item-image-3" src="./images/whi-25.png" alt="">
+                    <span class="game">tumike</span>
+                    <p class="done"><img class="fame" src="./images/whi-5.jpg"> 19 mutual friends</p>
+                    <h4 class="two">delete</h4>
+                    <h3 class="come-2-1">Confirm</h3>
+                </div>
+
+                <div class="facebook-list-item-3">
+                    <img class="facebook-list-item-image-3" src="./images/whi-26.png" alt="">
+                    <span class="game">apekeola</span>
+                    <p class="done"><img class="fame" src="./images/whi-6.jpg"> 8 mutual friends</p>
+                    <h4 class="two">delete</h4>
+                    <h3 class="come-2-1">Confirm</h3>
+                </div>
+
+                <div class="facebook-list-item-3">
+                    <img class="facebook-list-item-image-3" src="./images/whi-18.jpg" alt="">
+                    <span class="game">williams</span>
+                    <p class="done"><img class="fame" src="./images/whi-7.jpg"> 18 mutual friends</p>
+                    <h4 class="two">delete</h4>
+                    <h3 class="come-2-1">Confirm</h3>
+                </div>
+            </div>
+        </div>
+    </DIV>
+
+    <DIV class="facebook-list-container-4">
+        <H1 class="facebook-list-title-4">suggestion for you</H1>
+        <div class="facebook-list-wrapper-4">
+            <div class="facebook-list-4">
+                <div class="facebook-list-item-4">
+                    <img class="facebook-list-item-image-3" src="./images/whi-21.png" alt="">
+                    <span class="game">oluwa teniola</span>
+                    <p class="done"><img class="fame" src="./images/whi-11.jpg"> teniola and 4 others liked this</p>
+                    <P class="come-2-2"><i class="fa-solid fa-thumbs-up"></i> LIKE</P>
+                </div>
+
+                <div class="facebook-list-item-4">
+                    <img class="facebook-list-item-image-3" src="./images/WHI-6.jpg" alt="">
+                    <span class="game">AYO teniola</span>
+                    <p class="done"><img class="fame" src="./images/whi-6.jpg"> ajoke and 58 others liked this</p>
+                    <P class="come-2-2"><i class="fa-solid fa-thumbs-up"></i> LIKE</P>
+                </div>
+
+                <div class="facebook-list-item-4">
+                    <img class="facebook-list-item-image-4" src="./images/whi-19.png" alt="">
+                    <span class="game">abefeola</span>
+                    <p class="done"><img class="fame" src="./images/whi-17.jpg"> victoria and 4 others liked this</p>
+                    <P class="come-2-2"><i class="fa-solid fa-thumbs-up"></i> LIKE</P>
+                </div>
+
+                <div class="facebook-list-item-4">
+                    <img class="facebook-list-item-image-4" src="./images/whi-3.png" alt="">
+                    <span class="game">ajoke ade</span>
+                    <p class="done"><img class="fame" src="./images/whi-19.png"> tunmise and 16 others liked this</p>
+                    <P class="come-2-2"><i class="fa-solid fa-thumbs-up"></i> LIKE</P>
+                </div>
+
+                <div class="facebook-list-item-4">
+                    <img class="facebook-list-item-image-4" src="./images/whi-23.png" alt="">
+                    <span class="game">jumoke ola</span>
+                    <p class="done"><img class="fame" src="./images/whi-24.png"> agbeke and 10 others liked this</p>
+                    <P class="come-2-2"><i class="fa-solid fa-thumbs-up"></i> LIKE</P>
+                </div>
+
+                <div class="facebook-list-item-4">
+                    <img class="facebook-list-item-image-4" src="./images/whi-24.png" alt="">
+                    <span class="game">shade ola</span>
+                    <p class="done"><img class="fame" src="./images/whi-15.jpg"> apekeola and 8 others liked this</p>
+                    <P class="come-2-2"><i class="fa-solid fa-thumbs-up"></i> LIKE</P>
+                </div>
+
+                <div class="facebook-list-item-4">
+                    <img class="facebook-list-item-image-4" src="./images/whi-20.jpg" alt="">
+                    <span class="game">Afolabi</span>
+                    <p class="done"><img class="fame" src="./images/whi-5.jpg"> seunoluwa and 7 others liked this</p>
+                    <P class="come-2-2"><i class="fa-solid fa-thumbs-up"></i> LIKE</P>
+                </div>
+
+                <div class="facebook-list-item-4">
+                    <img class="facebook-list-item-image-4" src="./images/whi-16.jpg" alt="">
+                    <span class="game">ayomide</span>
+                    <p class="done"><img class="fame" src="./images/whi-6.jpg"> mosunmola and 6 others liked this</p>
+                    <P class="come-2-2"><i class="fa-solid fa-thumbs-up"></i> LIKE</P>
+            </div>
+            </div>
+        </div>
+    </DIV>
+
+    <div class="post-container-7">
+        <div class="post-row-a-7">
+            <div class="user-profile-7">
+                <img class="user-profile-img-7" src="./images/whi-7.jpg">
+                <div>
+                  <p class="user-profile-p-7">victoria</p>
+                  <span class="user-profile-s-7">may 29 2024 2:56pm</span>
+                </div>
+                <a href="#">
+                  <i class="AH-2 fa-sharp fa-solid fa-xmark"></i> 
+                  <i class="AH fa-solid fa-ellipsis"></i> 
+            </a>
+            </div>
+        </div>
+        <p class="post-text-7">it a nice day</p>
+        <img class="post-img-7" src="./images/whi-20.jpg">
+        <div class="POST-ROW">
+            <div>
+                <div class="gi"><i class="GT fa-solid fa-share"></i>   64</div>
+                <div class="gh"><i class="GT fa-solid fa-thumbs-up"></i>  589</div>
+                <div class="gj"><i class="GT fa-solid fa-comment"></i>  178</div>
+            </div>
+        </div> 
+    </div>
+
+
     
-       
-      <div class="movie-list-container">
-        <h1 class="movie-list-title">FAMILIAR FAVORITES</h1>
-        <div class="movie-list-wrapper">
-            <div class="movie-list">
-                <div class="movie-list-item">
-                    <img class="movie-list-item-image" src="images/free guy.jpg">
-                    <span class="movie-list-item-title">Free guy</span>
-                    <P class="movie-list-item-desc">A bank discovers that he's actually an NPC inside a brutal, open world video game </P>
-                    <button class="movie-list-item-botton">watch</button>
-                </div>
 
-                <div class="movie-list-item">
-                    <img class="movie-list-item-image" src="images/los ferrad.jpg">
-                    <span class="movie-list-item-title">Los Ferad</span>
-                    <P class="movie-list-item-desc">It follows oskar, who dreams of setting up a gym. he ends up entering the costa del sol, all due to the farads, a family thats offers him a future, but with the most unexpected of trades: arms trafficking</P>
-                    <button class="movie-list-item-botton">watch</button>
-                </div>
-
-                <div class="movie-list-item">
-                    <img class="movie-list-item-image" src="images/God of the deep.jpg">
-                    <span class="movie-list-item-title">Gods of the deep</span>
-                    <p class="movie-list-item-desc">when a daring mission leads a deep sea submarine team into a mysterious opening on the ocean floor, they uncover a lost underwater world and awaken its ancient  race of otherwordly beings</p>
-                    <button class="movie-list-item-botton">watch</botton>
-                </div>
-
-                <div class="movie-list-item">
-                    <img class="movie-list-item-image" src="images/lovely wife.jpg">
-                    <span class="movie-list-item-title">lovely wife</span>
-                    <p class="movie-list-item-desc">She was once a beloved princess who loved him to the core ansd insisted on marrying him regardless of the other woman in his heart  </p>
-                    <button class="movie-list-item-botton">watch</button>
-                </div>
-                <div class="movie-list-item">
-                    <img class="movie-list-item-image" src="images/married to a trillionaire.jpg">
-                    <span class="movie-list-item-title">marrying a trillionaire</span>
-                    <P class="movie-list-item-desc">Due to issues surrounding the dowry, the two-year relationship with my boyfriend suddenly fell apart. i turned around and tied the knot with a billionaire</P>
-                    <button class="movie-list-item-botton">watch</button>
-                </div>
-
-                <div class="movie-list-item">
-                    <img class="movie-list-item-image" src="images/orisa.jpg">
-                    <span class="movie-list-item-title">Orisa</span>
-                    <p class="movie-list-item-desc">From royalty to redemption: witness the king's decent, the queen's sacrifice, and the battle for freedom.</p>
-                    <button class="movie-list-item-botton">watch</button>
-                </div>
-
-                <div class="movie-list-item">
-                    <img class="movie-list-item-image" src="images/perfect love.jpg">
-                    <span class="movie-list-item-title">perfect love</span>
-                    <P class="movie-list-item-desc">jewelry designer  Ada prescott's life hits a low point after her boyfriend cheats on her and her sister accuses her of plagiarism. drunk, Ada accidentally marries IAN, but does not know that he is the same man she once saved from death</P>
-                    <button class="movie-list-item-botton">watch</button>
+    <div class="post-container-6">
+        <div class="post-row-a-6">
+            <div class="user-profile-6">
+                <img class="user-profile-img-6" src="./images/WHI-6.jpg">
+                <div>
+                    <p class="user-profile-p-6">ayomidotun</p>
+                    <span class="user-profile-s-6">may 31 2024 7:56</span>
                 </div>
             </div>
-            <i class="arrow fa-solid fa-angle-right"></i>
-           </div>
+            <a href="#">
+                <i class="AH-2 fa-sharp fa-solid fa-xmark"></i>
+                <i class="AH fa-solid fa-ellipsis"></i>
+            </a>
         </div>
-        <div class="movie-list-container">
-            <h1 class="movie-list-title">GEMS FOR YOU</h1>
-            <div class="movie-list-wrapper">
-                <div class="movie-list">
-                    <div class="movie-list-item">
-                        <img class="movie-list-item-image" src="images/snatched a bilionaire.jpg">
-                        <span class="movie-list-item-title">snatched a billionaire</span>
-                        <p class="movie-list-item-desc">cora, once a billionaire heiress, is now bankrupt. as she struggles tosupport her ill mother, a cold-hearted billionaire falls for her giving cora a chance at reclaimimg her life. they found true love, providing it transcends wealth </p>
-                        <button class="movie-list-item-botton">watch</button>
-                    </div>
-
-                    <div class="movie-list-item">
-                        <img class="movie-list-item-image" src="images/the double life of my .jpg">
-                        <span class="movie-list-item-title">the billionaire husband</span>
-                        <p class="movie-list-item-desc">sebastian klein is the bastard son of klein family. rumor as it, he's a good for nothing loser who just got realeased form prison. no girl in their right mind would marry him until Natalie quin does.</p>
-                        <button class="movie-list-item-botton">watch</button>
-                    </div>
-
-                    <div class="movie-list-item">
-                        <img class="movie-list-item-image" src="images/the hustle.jpg">
-                        <span class="movie-list-item-title">THE HUSTLE</span>
-                        <P class="movie-list-item-desc">two con women-one low rent and the other high class team up to take down the men who had wronged them</P>
-                        <button class="movie-list-item-botton">watch</button>
-                    </div>
-
-                    <div class="movie-list-item">
-                        <img class="movie-list-item-image" src="images/the tiger apprentice.jpg">
-                        <span class="movie-list-item-title">The tiger apprentice</span>
-                        <p class="movie-list-item-desc">Tom lee, a chinese-american boy, after the death of his grandmother appretinced to the talking tiger mr.hu and learn ancient magic to become the new gaurdian of an ancient phoenix</p>
-                        <button class="movie-list-item-botton">watch</button>
-                    </div>
-
-                    <div class="movie-list-item">
-                        <img class="movie-list-item-image" src="images/treasures of the sky.jpg">
-                        <span class="movie-list-item-title">treasure in the sky</span>
-                        <p class="movie-list-item-desc">an intriguing educative nollywood drama filled with suspense</p>
-                        <button class="movie-list-item-botton">watch</button>
-                    </div>
-
-                    <div class="movie-list-item">
-                        <img class="movie-list-item-image" src="images/wander vision.jpg">
-                        <span class="movie-list-item-title">Wandervison</span>
-                        <p class="movie-list-item-desc">blends the sky of the classic sit-coms with the MCU, in which wander maxioff and vision-two super-powered beings living ideal suburban lives-begin to suspect that everything is not as it seems. </p>
-                        <button class="movie-list-item-botton">watch</button>
-                    </div>
-
-                    <div class="movie-list-item">
-                        <img class="movie-list-item-image" src="images/adam driver.jpg">
-                        <span class="movie-list-item-title">Adam driver</span>
-                        <p class="movie-list-item-desc">After surviving a crash landing and astronut and his passenger must outlast perils of prehistoric health to reach their lonely home of escape.</p>
-                        <button class="movie-list-item-botton">watch</button>
-                    </div>
-                </div>
-                <i class="arrow fa-solid fa-angle-right"></i>
+        <p class="post-text-6">this fine boy</p>
+        <img class="post-img-6" src="./images/whi-19.png">
+        <div class="POST-ROW">
+            <div>
+                <div class="gi"><i class="GT fa-solid fa-share"></i>   300</div>
+                <div class="gj"><i class="GT fa-solid fa-comment"></i>  1.8</div>
+                <div class="gh"><i class="GT fa-solid fa-thumbs-up"></i> 5K</div>
             </div>
         </div>
     </div>
-    <script src="app.js"></script>
+
+
 </body>
 </html>
